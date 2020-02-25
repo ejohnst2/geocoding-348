@@ -1,14 +1,12 @@
 import mapboxgl from 'mapbox-gl';
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 
-  // 1. select the map element in our HTML
-  // 2. only build a map if there's a div#map to inject into
-  // 3. creates a new instance of the Map object on the view
-  // 4. Add markers to our map
-  // 5. Fit map to the markers based on furthest lats and lngs
-  // 6. Add the geocoder input for the map
-
-
+// 1. select the map element in our HTML
+// 2. only build a map if there's a div#map to inject into
+// 3. creates a new instance of the Map object on the view
+// 4. Add markers to our map
+// 5. Fit map to the markers based on furthest lats and lngs
+// 6. Add the geocoder input for the map
 
 const fitMapToMarkers = (map, markers) => {
   const bounds = new mapboxgl.LngLatBounds();
